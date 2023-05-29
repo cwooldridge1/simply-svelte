@@ -13,7 +13,7 @@
       <div class="flex h-16 items-center justify-between px-4 sm:px-0">
         <div class="flex items-center">
           <div class="flex-shrink-0 text-gray-100 font-bold">
-            <a href="/">Simple Svelte</a>
+            <a href="/">Simply Svelte</a>
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">

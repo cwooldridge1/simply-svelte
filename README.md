@@ -2,7 +2,7 @@
 
 Simply Svelte is a quick-start template I've designed to speed up the development of my freelance projects. Realizing others might find it just as useful, I decided to share it. It comes equipped with a carefully selected range of packages, utilizing an opinionated tech stack to offer a streamlined and consistent development experience.
 
-![img](https://cwooldridge1-readme-images.s3.us-west-2.amazonaws.com/simple-svelte.png)
+![img](https://cwooldridge1-readme-images.s3.us-west-2.amazonaws.com/simply-svelte.png)
 
 ## Tech Stack
 
