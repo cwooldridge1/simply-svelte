@@ -1,0 +1,40 @@
+.btn
+{
+    @apply py-2.5 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium shadow-sm align-middle focus:outline-none transition-all text-sm;
+}
+
+@each $color, $value in $theme-colors {
+    .btn-inverse-#{$color} {
+      @include button-inverse-variant($value);
+    }
+    .btn-#{$color} {
+      &:not(.btn-light):not(.btn-secondary) {
+        color: $white;
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+          border-color: $value;
+          @apply py-2.5
+        }
+        &:focus,
+        &:active {
+          border-color: $value;
+        }
+        background: $value;
+      }
+    }
+    .btn-outline-#{$color} {
+      border-color: $value;
+      color: $value;
+      &:hover,
+      &:focus,
+      &:active {
+        color: $white;
+        background-color: $value;
+      }
+
+    }
+  }
+
+

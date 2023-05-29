@@ -1,0 +1,73 @@
+.form-control {
+  @extend .rounded;
+  width: 100%;
+  display: block;
+  border: 1px solid $input-border-color;
+  height: calc(2.25rem + 2px);
+  font-weight: normal;
+  font-size: $input-font-size; 
+  padding: 0.625rem 0.6875rem;
+  background-color: $input-bg;
+  &:focus {
+    border: 1px solid;
+    background-color: $input-bg;
+    @apply border-info;
+  }
+  &.form-control-lg {
+    padding: 0.94rem .75rem;
+    height: calc(2.875rem + 2px);
+  }
+
+  &.form-control-sm {
+    padding: 0.5rem .75rem;
+    height: calc(1.8125rem + 2px);
+  }
+  &::placeholder {
+    font-size: $input-placeholder-font-size;
+    color: $input-placeholder-color;
+  }
+}
+
+label {
+ @apply block text-sm font-medium leading-6 text-gray-900;
+}
+
+.input-addon
+{
+  @extend .rounded;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem; 
+  color: $white; 
+  background-color: $input-border-color; 
+}
+
+//all input addons should adapt the border rounding to make it look like a single element
+
+// if .input-addon is before .form-control
+.input-addon + .form-control {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+// if .input-addon is after .form-control
+.form-control:has(+ .input-addon) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+
+// if .input-addon is after .form-control
+.form-control + .input-addon {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+// if .input-addon is before .form-control
+.input-addon:has(+ .form-control) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

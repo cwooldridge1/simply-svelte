@@ -1,0 +1,22 @@
+//general
+$black: rgb(17 24 39);
+$white: #fffffe;
+
+$theme-colors: (
+    success: rgb(74 222 128),
+    danger: rgb(248 113 113),
+    info: rgb(129 140 248),
+    primary: rgb(96 165 250),
+    warning:  rgb(251 191 36),
+    muted: rgb(75 85 99),
+);
+$border-color:rgb(209 213 219); 
+
+//forms
+$text-input: #94a1b2;
+
+$input-bg: transparent;
+$input-border-color: $border-color;
+$input-placeholder-color: $border-color;
+$input-placeholder-font-size: 0.875rem;
+$input-font-size: 0.875rem;
