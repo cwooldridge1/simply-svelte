@@ -40,8 +40,8 @@ In this template, I've incorporated a Bootstrap-like color system (e.g., `bg-suc
 
 ## Contributions
 
-While I developed Simply Svelte, I wholeheartedly welcome contributions to the project! If you have suggestions, improvements, or bug fixes, please feel free to make a pull request or open an issue.
+I wholeheartedly welcome contributions to the project! If you have suggestions, improvements, or bug fixes, please feel free to make a pull request or open an issue.
 
 ## Conclusion
 
-Simply Svelte is a labor of love designed to provide a fast and efficient way to kickstart your freelance projects. It offers a hand-picked set of packages and a tech stack proven to be effective for small to medium-sized projects. I hope you find this template as useful as I do. I look forward to seeing what you build with it!
+Simply Svelte is a labor of love designed to provide a fast and efficient way to kickstart your projects. It offers a hand-picked set of packages and a tech stack proven to be effective for small to medium-sized projects. I hope you find this template as useful as I do. I look forward to seeing what you build with it!
