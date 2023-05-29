@@ -23,7 +23,7 @@ Simply Svelte is easily customizable to your specific needs and adaptable to any
 To get started with Simply Svelte, clone the repository and install the dependencies:
 
 ```
-git clone https://github.com/cwooldridge1/simple-svelte.git
+git clone https://github.com/cwooldridge1/simply-svelte.git
 cd simply-svelte
 yarn install
 ```
